@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Guess The Number
+    </title>
+</head>
+<body>
+    <div id="contenedorPrincipal">
+        <h1 id="titulo">Lets play a game!</h1>
+        <hr id="lineaSeparadora">
+        <p id="parrafo">I will generate a ramdom number from 1 to 100. Lets see how many attemps you need to guess it.</p>
+        <button id="boton" class="botones">START</button>
+    </div>
+    <div id="contenedorDinamico">
+        <!-- <form id="entradaDeTextoForm"> -->
+            <input type="text" id="entradaDeTexto" placeholder="Type the number Here!">
+        <!-- </form> -->
+        <button id="verificaBoton" class="botones" onclick="guessNumber">Verify</button>
+        <p id="alertaMensaje"></p>
+        <p id="intentosMensaje">Attemps: 0</p>
+    </div>
+    <div id="mensajeFinal">
+        <h1 id="mensajeLetra">You Won using X attemps. The number was XX</h1>
+    </div>
+</body>
+</html>
+<script 
+    src="./script.js">
+</script>

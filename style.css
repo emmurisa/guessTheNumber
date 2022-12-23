@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+
+#contenedorPrincipal {
+    border: solid 1px blue;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    background-color: rgb(149, 163, 228);
+}
+
+#titulo {
+    margin-bottom: 0px;
+}
+
+#lineSeparadora {
+    margin-top: 0px;
+    background-color: rgb(162, 195, 224);
+}
+
+.botones {
+    font-size: large;
+    font-weight: bold;
+    width:85px;
+    height: 32px;
+}
+
+#contenedorDinamico {
+    padding: 40px;
+    background-color: white;
+    display: none;
+}
+
+#entradaDeTexto {
+    width: 230px;
+    height: 27px;
+}
+
+#alertaMensaje {
+    font-weight: bold;
+    /* color: blue; */
+    margin-left: 15px;
+    display: inline;
+}
+
+#mensajeFinal {
+    border: solid 3px green;
+    background-color: rgb(32, 212, 32);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
